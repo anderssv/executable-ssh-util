@@ -47,9 +47,9 @@ public class App {
 	public static String readClassPathFile(Class clazz, String filename)
 			throws IOException {
 		URL resource = clazz.getClassLoader().getResource(filename);
-		String json = org.apache.commons.io.IOUtils.toString(resource
+		String fileConent = org.apache.commons.io.IOUtils.toString(resource
 				.openStream());
-		return json;
+		return fileConent;
 	}
 
 }
