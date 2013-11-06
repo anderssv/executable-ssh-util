@@ -1,0 +1,9 @@
+SSH
+
+Usage:
+  ssh-manager services (stop|start)
+  ssh-manager -h | --help
+
+Options:
+  -h --help     Show this screen.
+  
